@@ -1,0 +1,15 @@
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+ul {
+    display: none;
+}
+
+.hello2:focus ~ ul {
+    display: block;
+}
